@@ -1,0 +1,46 @@
+# DEW ORIGINS - College Summer Project
+
+A web-based solution including advanced features such as seamless mobile pre-ordering.
+
+---
+
+## Project Overview
+
+DEW ORIGINS is a web application developed as part of a college summer project. The core objective of this project was to identify a real-world user experience that may be flawed, and build a web solution using HTML, CSS, JavaScript, and PHP to address it.
+
+---
+
+## The Problem
+
+Most local coffee shop websites fall into one of two traps:
+1. Static and Informational: They act purely as digital brochures (showing only address, hours, and static PDF menus), forcing customers to wait in long lines during peak hours.
+2. Generic E-Commerce: Standard online ordering systems don't talk about the unique origin story and ethical sourcing behind the coffee, treating special drinks like fast food.
+
+### Key Issues
+- Inconvenient Morning Rush: Customers face long wait times during peak hours with no real-time order tracking or pre-pickup scheduling.
+- Lack of Transparency: The coffee enthusiasts care about roast dates, origins, and altitude, but standard menus remove these details.
+- Complex Customizations: Standard online forms make drink customizations (milk alternatives, espresso shots, syrup adjustments) confusing for both customer and barista.
+
+---
+
+## The Solution: DEW ORIGINS Platform
+
+DEW ORIGINS aims to reimagine the coffee shop digital apps by combining real-time pre-ordering with rich, interactive information on where their coffee originated from.
+
+### Key Features
+- Smart Pre-Ordering: Schedule drink pickups in advance to skip the peak-hour line.
+- Interactive Tracing: Explore cards showing origin countries, farm details, elevation, process type, and flavor profiles for every roast.
+- Custom Drink Builder: A visual menu modifier for custom milk options, shot counts, and temperature preferences.
+- Live Order Status Tracker: Real-time updates showing when an order is Received, In Preparation, and Ready for Pickup.
+- Accessible and Mobile-First Design: Fully responsive interface optimized for on-the-go mobile users.
+
+---
+
+## Languages Used
+
+- Frontend: HTML5, CSS3, JavaScript
+- Backend: PHP
+- Database: MySQL
+- Version Control: Git
+
+---

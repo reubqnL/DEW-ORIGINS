@@ -44,3 +44,11 @@ DEW ORIGINS aims to reimagine the coffee shop digital apps by combining real-tim
 - Version Control: Git
 
 ---
+
+brew services start mysql
+brew services list
+brew services stop mysql
+
+cd '/Users/reu/Desktop/DEW ORIGINS/src'
+php -S localhost:8000
+

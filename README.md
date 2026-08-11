@@ -51,4 +51,3 @@ brew services stop mysql
 
 cd '/Users/reu/Desktop/DEW ORIGINS/src'
 php -S localhost:8000
-

@@ -17,8 +17,10 @@
 
 <body>
 <header class="navBar">
-    <h2 class="logo">DEW ORIGINS</h2>
-    <img src="../assets/favicon.png" alt="Coffee Bean logo" class="imgLogo">
+    <a href="../pages/index.php" class="logoLink">
+        <h2 class="logo">DEW ORIGINS</h2>
+        <img src="../assets/favicon.png" alt="Coffee Bean logo" class="imgLogo">
+    </a>
     <ul class="navLinks">
         <li><a href="../pages/index.php">Home</a></li>
         <li><a href="../pages/about.php">About</a></li>

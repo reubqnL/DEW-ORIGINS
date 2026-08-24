@@ -23,6 +23,7 @@
 <body>
 <header class="navBar">
     <h2 class="logo">DEW ORIGINS</h2>
+    <img src="../assets/favicon.png" alt="Coffee Bean logo" class="imgLogo">
     <ul class="navLinks">
         <li><a href="../pages/index.php">Home</a></li>
         <li><a href="../pages/about.php">About</a></li>
@@ -85,6 +86,42 @@
 
 <!-- FOOTER -->
 
-<footer>Find us at [ADDRESS]<br>Contact us at [EMAIL] - [NUMBER]<br>© Copyright DEW ORIGINS 2026</footer>
+<footer class="siteFooter">
+    <div class="footerContent">
+
+        <!-- COLUMN 1: OPENING TIMES -->
+        <div class="openingTimes">
+            <h3>Opening Times</h3>
+            <p class="footerItem"><strong>Monday</strong> &bull; <time>9am - 5pm</time></p>
+            <p class="footerItem"><strong>Tuesday</strong> &bull; <time>9am - 5pm</time></p>
+            <p class="footerItem"><strong>Wednesday</strong> &bull; <time>9am - 5pm</time></p>
+            <p class="footerItem"><strong>Thursday</strong> &bull; <time>9am - 5pm</time></p>
+            <p class="footerItem"><strong>Friday</strong> &bull; <time>9am - 5pm</time></p>
+        </div>
+
+        <!-- COLUMN 2: CONTACT DETAILS -->
+        <div class="contactDetails">
+            <h3>Contact Details</h3>
+            <p class="footerItem">Find us at <strong>21 Savage Road</strong></p>
+            <p class="footerItem">
+                <a href="mailto:example@gmail.com">example@gmail.com</a> &bull;
+                <a href="tel:07000000000">07??? ??? ???</a>
+            </p>
+        </div>
+
+        <!-- COLUMN 3: LEGAL -->
+        <div class="legalDetails">
+            <h3>Legal</h3>
+            <p class="footerItem"><a href="../pages/cookies.php">Cookie Policy</a></p>
+            <p class="footerItem"><a href="../pages/privacy.php">Privacy Policy</a></p>
+        </div>
+
+        <!-- BOTTOM ROW: COPYRIGHT -->
+        <div class="footerBottom">
+            <p class="footerCopyright">&copy; Copyright DEW ORIGINS 2026</p>
+        </div>
+
+    </div>
+</footer>
 <script src="../scripts/scroll.js"></script>
 </html>

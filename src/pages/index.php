@@ -10,6 +10,7 @@
     <title>DEW ORIGINS | Home</title>
 
     <link rel="stylesheet" href="../styles/global.css">
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.png">
     <meta name="author" content="Reuben Cheetham">
     <meta name="description" content="A coffee shop that promotes transparency, drink customisation and putting you at the front of the queue">
     <meta name="keywords" content="coffee, shop, local, business, cheap, relax, cosy, budget, family, warm, summer, winter, comfort, dew, costa, starbucks, offer">

@@ -24,14 +24,14 @@ ul {
     border-bottom: 1px solid #e0e0e0; /* Bottom divider line */
 }
 
-/* Navigation 'logo' */
+/* Navigation logo / text */
 .logo {
     font-family: sans-serif;
     font-size: 32px;
     color: #5c3b28; /* Brown color for site*/
 }
 
-/* Navigation links */
+/* Navigation links container */
 .navLinks {
     display: flex;
     align-items: center;
@@ -41,8 +41,15 @@ ul {
     margin-right: 80px;
 }
 
+/* Individual links */
 .navLinks a {
     text-decoration: none;
     color: black;
     font-family: sans-serif;
+    display: inline-block;
+    transition: transform 0.2s ease-in-out;
+}
+
+.navLinks a:hover {
+    transform: scale(1.1);
 }

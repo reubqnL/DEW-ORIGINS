@@ -3,8 +3,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Open Sans", serif;
-}
 
 html, body {
     background-color: white;
@@ -46,17 +44,19 @@ a {
 .navLinks {
     display: flex;
     align-items: center;
-    gap: 64px;
+    gap: 55px;
     font-size: 22px;
     margin-left: auto;
     margin-right: 80px;
+    font-weight: 600;
+}
 }
 
 /* Individual links */
 .navLinks a {
     text-decoration: none;
     color: black;
-    font-family: sans-serif;
+    font-family: "Open Sans", serif;
     display: inline-block;
     transition: transform 0.2s ease-in-out;
 }
@@ -74,6 +74,8 @@ footer.siteFooter {
     color: #d8d2d2;
     margin-top: 60px;
     width: 100%;
+    z-index: 1000;
+    font-family: "Open Sans", serif;
 }
 
 /* 2-Column grid for main content */
@@ -126,8 +128,27 @@ footer a:hover {
     color: #bfaea4;
 }
 
+/* COOKIES PAGE */
 
+.cookieTitle, .privacyTitle {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-family: "Open Sans", sans-serif;
+    cursor: help;
+    color: #5c3b28;
+}
 
+.cookieText, .privacyText {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+    text-align: center;
+    margin-top: 15px;
+    cursor: help;
+    font-family: cursive;
+}
 
 
 

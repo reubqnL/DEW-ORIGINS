@@ -18,8 +18,8 @@
     <meta name="summary" content="A small local coffee shop which offers speedy and cheap ordering on this web application">
 </head>
 
-
 <!-- NAVIGATION BAR -->
+
 <body>
 <header class="navBar">
     <h2 class="logo">DEW ORIGINS</h2>

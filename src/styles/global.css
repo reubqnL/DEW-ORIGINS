@@ -1,0 +1,48 @@
+/* General */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background-color: white;
+    overscroll-behavior: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Navigation bar */
+.navBar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 20px 60px;
+    border-top: 1px solid #e0e0e0;    /* Top divider line */
+    border-bottom: 1px solid #e0e0e0; /* Bottom divider line */
+}
+
+/* Navigation 'logo' */
+.logo {
+    font-family: sans-serif;
+    font-size: 32px;
+    color: #5c3b28; /* Brown color for site*/
+}
+
+/* Navigation links */
+.navLinks {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    font-size: 22px;
+    margin-left: auto;
+    margin-right: 80px;
+}
+
+.navLinks a {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}

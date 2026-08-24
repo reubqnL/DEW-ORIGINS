@@ -20,29 +20,23 @@
 
 <!-- NAVIGATION BAR -->
 <body>
-<header>
-<h2>DEW ORIGINS</h2>
+<header class="navBar">
+    <h2 class="logo">DEW ORIGINS</h2>
+    <ul class="navLinks">
+        <li><a href="../pages/index.php">Home</a></li>
+        <li><a href="../pages/about.php">About</a></li>
+        <li><a href="../pages/origins.php">Origins</a></li>
+        <li><a href="../pages/order.php">Order</a></li>
+    </ul>
 </header>
-<main>
-    <section>
-        <div class="navigation">
-            <nav>
-                <ul>
-                    <li><a href="../assets/">Home</a></li>
-                    <li><a href="../assets/">Menu</a></li>
-                    <li><a href="../assets/">Origins</a></li>
-                    <li><a href="../assets/">Order</a></li>
-                </ul>
-            </nav>
-        </div>
-    </section>
 
     <!-- HERO SECTION -->
 
+<main>
     <section>
         <div class="heroSection">
         <div class="coffeeCupHome">
-            <img src="../assets/" alt="An image of a coffee cup">
+            <img src="../assets/largeCoffeeCup.png" alt="An image of a coffee cup">
             <h1>Order Coffee<br>Ahead</h1>
         </div>
             <div class="tagLine">
@@ -69,17 +63,17 @@
     <section>
         <div class="cardGrid">
             <div class="card">
-                <img src="../assets/" alt="An icon of a menu">
+                <img src="../assets/menu.png" alt="An icon of a menu">
                 <h2>Menu</h2>
                 <p>View our world-famous drinks</p>
             </div>
             <div class="card">
-                <img src="../assets/" alt="An icon of the Earth">
+                <img src="../assets/globe.png" alt="An icon of the Earth">
                 <h2>Coffee Origins</h2>
                 <p>Ethically sourced coffee beans</p>
             </div>
             <div class="card">
-                <img src="../assets/" alt="An icon of a package">
+                <img src="../assets/parcel.png" alt="An icon of a package">
                 <h2>Track Order</h2>
                 <p>Track your delivery / pickup order</p>
             </div>

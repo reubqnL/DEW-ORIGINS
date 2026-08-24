@@ -52,7 +52,7 @@ DEW ORIGINS aims to reimagine the coffee shop digital apps by combining real-tim
 
 ---
 
-## MacOS: Running MySQL & PHP Locally
+## macOS: Running MySQL & PHP Locally
 
 ### MySQL
 - brew services start mysql

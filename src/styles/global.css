@@ -84,7 +84,7 @@ footer.siteFooter {
     font-family: "Open Sans", serif;
 }
 
-/* 2-Column grid for main content */
+/* 2 column grid for main content */
 .footerContent {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -154,4 +154,38 @@ footer a:hover {
     margin-top: 15px;
     cursor: help;
     font-family: cursive;
+}
+
+/* Home hero */
+
+.heroSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ededed;
+    text-align: center;
+    padding: 60px 20px;
+    margin: 0 auto;
+}
+
+.heroSection h1 {
+    font-family:'Open Sans' ,sans-serif;
+    font-size: 60px;
+    text-align: left;
+    top: -80px;
+    position: relative;
+
+}
+
+.coffeeCupHome img {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: 0;
+}
+
+.tagLine {
+
 }

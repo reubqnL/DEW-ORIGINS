@@ -41,8 +41,8 @@
         <div class="heroSection">
         <div class="coffeeCupHome">
             <img src="../assets/largeCoffeeCup.png" alt="An image of a coffee cup">
-            <h1>Order Coffee<br>Ahead</h1>
         </div>
+            <h1>Order Coffee<br>Ahead</h1>
             <div class="tagLine">
                 <h3>Make it better, do it faster</h3>
             </div>

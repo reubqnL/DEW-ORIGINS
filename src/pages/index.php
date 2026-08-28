@@ -46,7 +46,7 @@
             <div class="tagLine">
                 <h3>Make it better, do it faster</h3>
             </div>
-            <button>Pre-order Now</button>
+            <button class="preOrder"><a href="order.php">Pre-order Now</button>
         </div>
     </section>
 

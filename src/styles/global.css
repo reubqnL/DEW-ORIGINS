@@ -187,5 +187,33 @@ footer a:hover {
 }
 
 .tagLine {
+    left: -395px;
+    position: relative;
+    font-family: "Open Sans", sans-serif;
+    top: 38px;
+}
 
+.preOrder {
+    position: relative;
+    left: -654px;
+    top: 120px;
+    background-color: #5c3b28;
+    font-family: "Open Sans", sans-serif;
+    border: none;
+    padding: 15px 38px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 12px;
+    font-size: 20px;
+    color: white;
+}
+
+.preOrder:hover {
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.07);
+}
+
+.preOrder a {
+    color: inherit;
 }

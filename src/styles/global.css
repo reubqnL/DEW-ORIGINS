@@ -224,11 +224,44 @@ footer a:hover {
     display: flex;
     position: relative;
     float: right;
-    right: 80px;
-    bottom: 380px;
+    right: 40px;
+    bottom: 460px;
+    border: #dfdbd8 solid 2px;
+    padding: 15px 25px 0px 25px;
+    background: rgb(255 255 255 / 0.95);
+    overflow: hidden;
+    height: 410px;
+    border-radius: 12px;
 }
 
 .orderSection {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     font-size: 18px;
+}
+
+.orderSection h3:last-child {
+    margin-bottom: 0;
+}
+
+.orderSection h2 {
+    font-size: 28px;
+    font-weight: 550;
+}
+
+.orderSection h3 {
+    margin-left: 65px;
+    font-weight: 550;
+}
+
+.orderPlaced {
+    margin-bottom: 50px;
+}
+
+.orderPreparing {
+    margin-bottom: 60px;
+}
+
+.orderCollected {
+    margin-bottom: 20px;
+    margin-top: 35px;
 }

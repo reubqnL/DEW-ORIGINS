@@ -217,3 +217,18 @@ footer a:hover {
 .preOrder a {
     color: inherit;
 }
+
+/* Order status */
+
+.orderStatusContainer {
+    display: flex;
+    position: relative;
+    float: right;
+    right: 80px;
+    bottom: 380px;
+}
+
+.orderSection {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+}

@@ -46,13 +46,13 @@
             <div class="tagLine">
                 <h3>Make it better, do it faster</h3>
             </div>
-            <button class="preOrder"><a href="order.php">Pre-order Now</button>
+            <button id="preOrderBtn" class="preOrder">Pre-order Now</button>
         </div>
     </section>
 
     <!-- ORDER STATUS -->
 
-    <section>
+    <section class="orderStatusContainer">
         <div class="orderSection">
             <h2>Order Status</h2><br>
             <h3>Order Placed</h3><br>
@@ -126,4 +126,5 @@
     </div>
 </footer>
 <script src="../scripts/scroll.js"></script>
+<script src="../scripts/index.js"></script>
 </html>

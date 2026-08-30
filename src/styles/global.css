@@ -244,7 +244,7 @@ footer a:hover {
 }
 
 .orderSection h2 {
-    font-size: 28px;
+    font-size: 26px;
     font-weight: 550;
 }
 
@@ -265,3 +265,50 @@ footer a:hover {
     margin-bottom: 20px;
     margin-top: 35px;
 }
+
+/* Timeline */
+
+.circle1 {
+    content: "";
+    border: #bfaea4 solid 1px;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    position: relative;
+    right: -1131px;
+    top: -393px;
+}
+
+.circle2 {
+    content: "";
+    border: #bfaea4 solid 1px;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    position: relative;
+    right: -1131px;
+    top: -333px;
+}
+
+.circle3 {
+    content: "";
+    border: #bfaea4 solid 1px;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    position: relative;
+    right: -1131px;
+    top: -262px;
+}
+
+.circle4 {
+    content: "";
+    border: #bfaea4 solid 1px;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    position: relative;
+    right: -1131px;
+    top: -215px;
+}
+

@@ -40,7 +40,7 @@
     <section>
         <div class="heroSection">
         <div class="coffeeCupHome">
-            <img src="../assets/largeCoffeeCup.png" alt="An image of a coffee cup">
+            <img src="../assets/largeMilkshake.png" alt="An image of a coffee cup">
         </div>
             <h1>Order Coffee<br>Ahead</h1>
             <div class="tagLine">
@@ -61,6 +61,19 @@
             <h3 class="orderCollected">Picked Up</h3><br>
         </div>
     </section>
+
+    <div class="timeline">
+        <div class="circle1">
+            <div class="step"></div>
+        </div>
+        <div class="circle2">
+            <div class="step"></div>
+        </div>
+        <div class="circle3">
+            <div class="step"></div>
+        </div>
+        <div class="circle4"></div>
+    </div>
 
     <!-- CARD GRID -->
 

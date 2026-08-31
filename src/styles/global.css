@@ -8,6 +8,7 @@
 html, body {
     background-color: white;
     overscroll-behavior: none;
+    min-width: 1470px;
 }
 
 ul {
@@ -84,7 +85,7 @@ footer.siteFooter {
     font-family: "Open Sans", serif;
 }
 
-/* 2 column grid for main content */
+/* 2 column grid for main content (edit: reference for future use) */
 .footerContent {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -122,7 +123,7 @@ footer a:hover {
 
 /* Bottom copyright bar */
 .footerBottom {
-    grid-column: 1 / -1; /* Spans across both columns */
+    grid-column: 1 / -1;
     text-align: center;
     margin-top: 20px;
     padding-top: 16px;
@@ -167,15 +168,21 @@ footer a:hover {
     text-align: center;
     padding: 60px 20px;
     margin: 0 auto;
+    margin-bottom: 144px;
 }
 
 .heroSection h1 {
     font-family:'Open Sans' ,sans-serif;
     font-size: 60px;
     text-align: left;
-    top: -80px;
-    position: relative;
 
+}
+
+.heroText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 41px;
 }
 
 .coffeeCupHome img {
@@ -187,16 +194,14 @@ footer a:hover {
 }
 
 .tagLine {
-    left: -395px;
-    position: relative;
+    margin-left: 13px;
     font-family: "Open Sans", sans-serif;
-    top: 38px;
+    margin-top: 38px;
 }
 
 .preOrder {
-    position: relative;
-    left: -654px;
-    top: 120px;
+    margin-left: 21px;
+    margin-top: 45px;
     background-color: #5c3b28;
     font-family: "Open Sans", sans-serif;
     border: none;
@@ -222,10 +227,10 @@ footer a:hover {
 
 .orderStatusContainer {
     display: flex;
-    position: relative;
-    float: right;
-    right: 40px;
-    bottom: 460px;
+    align-self: flex-end;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-bottom: -10px;
     border: #dfdbd8 solid 2px;
     padding: 15px 25px 0px 25px;
     background: rgb(255 255 255 / 0.95);
@@ -237,6 +242,7 @@ footer a:hover {
 .orderSection {
     font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     font-size: 18px;
+    margin-left: -30px;
 }
 
 .orderSection h3:last-child {
@@ -268,15 +274,19 @@ footer a:hover {
 
 /* Timeline */
 
+.timeline {
+    display: flex;
+    flex-direction: column;
+    margin-left: -6px;
+}
+
 .circle1 {
     content: "";
     border: #bfaea4 solid 1px;
     border-radius: 50%;
     width: 36px;
     height: 36px;
-    position: relative;
-    right: -1131px;
-    top: -393px;
+    margin-top: 50px;
 }
 
 .circle2 {
@@ -285,9 +295,7 @@ footer a:hover {
     border-radius: 50%;
     width: 36px;
     height: 36px;
-    position: relative;
-    right: -1131px;
-    top: -333px;
+    margin-top: 60px;
 }
 
 .circle3 {
@@ -296,9 +304,7 @@ footer a:hover {
     border-radius: 50%;
     width: 36px;
     height: 36px;
-    position: relative;
-    right: -1131px;
-    top: -262px;
+    margin-top: 71px;
 }
 
 .circle4 {
@@ -307,9 +313,7 @@ footer a:hover {
     border-radius: 50%;
     width: 36px;
     height: 36px;
-    position: relative;
-    right: -1131px;
-    top: -215px;
+    margin-top: 47px;
 }
 
 .step {

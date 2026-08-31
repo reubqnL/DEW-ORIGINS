@@ -34,46 +34,47 @@
     </ul>
 </header>
 
-    <!-- HERO SECTION -->
+<!-- HERO SECTION -->
 
 <main>
     <section>
         <div class="heroSection">
-        <div class="coffeeCupHome">
-            <img src="../assets/largeMilkshake.png" alt="An image of a coffee cup">
-        </div>
-            <h1>Order Coffee<br>Ahead</h1>
-            <div class="tagLine">
-                <h3>Make it better, do it faster</h3>
+            <div class="coffeeCupHome">
+                <img src="../assets/largeMilkshake.png" alt="An image of a coffee cup">
             </div>
-            <button id="preOrderBtn" class="preOrder">Pre-order Now</button>
+            <div class="heroText">
+                <h1>Order Coffee<br>Ahead</h1>
+                <div class="tagLine">
+                    <h3>Make it better, do it faster</h3>
+                </div>
+                <button id="preOrderBtn" class="preOrder">Pre-order Now</button>
+            </div>
+
+            <!-- ORDER STATUS -->
+
+            <section class="orderStatusContainer">
+                <div class="timeline">
+                    <div class="circle1">
+                        <div class="step"></div>
+                    </div>
+                    <div class="circle2">
+                        <div class="step"></div>
+                    </div>
+                    <div class="circle3">
+                        <div class="step"></div>
+                    </div>
+                    <div class="circle4"></div>
+                </div>
+                <div class="orderSection">
+                    <h2>Order Status</h2><br>
+                    <h3 class="orderPlaced">Order Placed</h3><br>
+                    <h3 class="orderPreparing">Preparing</h3><br>
+                    <h3 class="orderReady">Ready for Pickup</h3><br>
+                    <h3 class="orderCollected">Picked Up</h3><br>
+                </div>
+            </section>
         </div>
     </section>
-
-    <!-- ORDER STATUS -->
-
-    <section class="orderStatusContainer">
-        <div class="orderSection">
-            <h2>Order Status</h2><br>
-            <h3 class="orderPlaced">Order Placed</h3><br>
-            <h3 class="orderPreparing">Preparing</h3><br>
-            <h3 class="orderReady">Ready for Pickup</h3><br>
-            <h3 class="orderCollected">Picked Up</h3><br>
-        </div>
-    </section>
-
-    <div class="timeline">
-        <div class="circle1">
-            <div class="step"></div>
-        </div>
-        <div class="circle2">
-            <div class="step"></div>
-        </div>
-        <div class="circle3">
-            <div class="step"></div>
-        </div>
-        <div class="circle4"></div>
-    </div>
 
     <!-- CARD GRID -->
 
@@ -97,7 +98,6 @@
         </div>
     </section>
 </main>
-</body>
 
 <!-- FOOTER -->
 
@@ -135,9 +135,9 @@
         <div class="footerBottom">
             <p class="footerCopyright">&copy; Copyright DEW ORIGINS 2026</p>
         </div>
-
     </div>
 </footer>
+</body>
 <script src="../scripts/scroll.js"></script>
 <script src="../scripts/index.js"></script>
 </html>

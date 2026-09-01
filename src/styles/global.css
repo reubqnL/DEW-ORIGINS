@@ -65,8 +65,7 @@ a {
     align-items: center;
     gap: 55px;
     font-size: 22px;
-    margin-left: auto;
-    margin-right: 0px;
+    margin: 0 0 0 auto;
     font-weight: 600;
 }
 
@@ -110,7 +109,7 @@ footer.siteFooter {
     color: #ffffff;
     font-size: 18px;
     margin-bottom: 12px;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.0278em;
 }
 
 /* Paragraph items */
@@ -160,13 +159,13 @@ footer a:hover {
 
 .cookieText, .privacyText {
     max-width: 800px;
-    margin: 40px auto;
+    margin: 15px auto 40px;
     padding: 0 20px;
     text-align: center;
-    margin-top: 15px;
     cursor: help;
     font-family: cursive;
 }
+
 
 /* Home hero */
 
@@ -247,7 +246,7 @@ footer a:hover {
     flex-shrink: 0;
     width: 320px;
     border: #dfdbd8 solid 2px;
-    padding: 15px 25px 0px 25px;
+    padding: 15px 25px 0;
     background: rgb(255 255 255 / 0.95);
     overflow: hidden;
     height: 410px;

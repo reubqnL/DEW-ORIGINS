@@ -316,6 +316,13 @@ footer a:hover {
     display: flex;
     flex-direction: column;
     margin-left: -6px;
+    position: absolute;
+    z-index: 2;
+}
+
+.circle1, .circle2, .circle3, .circle4 {
+    position: relative;
+    background-color: white;
 }
 
 .circle1 {
@@ -356,4 +363,9 @@ footer a:hover {
 
 .step {
     content: "";
+    position: absolute;
+    z-index: -1;
+    border-left: 2px solid #bfaea4;
+    height: 110px;
+    margin-left: 16px;
 }

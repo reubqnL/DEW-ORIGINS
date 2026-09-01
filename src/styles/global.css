@@ -11,7 +11,6 @@
 }
 
 html {
-    background-color: white;
     overscroll-behavior: none;
 }
 
@@ -137,7 +136,6 @@ footer a:hover {
     text-align: center;
     margin-top: 20px;
     padding-top: 16px;
-    border-top: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 .footerCopyright {
@@ -306,7 +304,7 @@ footer a:hover {
     flex-wrap: wrap;
     justify-content: center;
     position: absolute;
-    margin-top: -60px;
+    margin-top: -70px;
     padding-left: 55px;
 }
 
@@ -332,6 +330,7 @@ footer a:hover {
     width: 36px;
     height: 36px;
     margin-top: 50px;
+    background-color: #5c3b28;
 }
 
 .circle2 {
@@ -341,6 +340,7 @@ footer a:hover {
     width: 36px;
     height: 36px;
     margin-top: 60px;
+    background-image: linear-gradient(to top, white, #5c3b28);
 }
 
 .circle3 {
@@ -368,4 +368,50 @@ footer a:hover {
     border-left: 2px solid #bfaea4;
     height: 110px;
     margin-left: 16px;
+}
+
+/* Card Grid (Indented comments are for future personal use) */
+
+.cardGrid {
+    margin-left: 270px;
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    margin-top: -90px;
+    text-align: center;
+}
+
+.cardGrid img{
+    width: 50%;
+    height: 50%;
+}
+
+.menu {
+    margin-left: 23px !important;
+}
+
+.column {                   /* Floats the cards side by side */
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+.row:after {                /* Clears floats after the columns */
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    background-color: white;
+    border: #dfdbd8 2px solid;
+    border-radius: 12px;
+    display: grid;
+    justify-items: center;
+    gap: 30px;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.card p {
+    font-weight: 530;
 }

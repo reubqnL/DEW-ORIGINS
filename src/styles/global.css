@@ -5,10 +5,22 @@
     padding: 0;
 }
 
+.pageWrap {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow-x: visible
+}
+
 html, body {
     background-color: white;
     overscroll-behavior: none;
-    min-width: 1470px;
+    width: 100%;
+    max-width: 100%;
+}
+
+body {
+    overflow-x: auto;
 }
 
 ul {
@@ -24,7 +36,7 @@ a {
     display: flex;
     align-items: center;
     width: 100%;
-    padding: 20px 60px;
+    padding: 20px 5%;
     border-top: 1px solid #e0e0e0;    /* Top divider line */
     border-bottom: 1px solid #e0e0e0; /* Bottom divider line */
 }
@@ -55,7 +67,7 @@ a {
     gap: 55px;
     font-size: 22px;
     margin-left: auto;
-    margin-right: 80px;
+    margin-right: 0px;
     font-weight: 600;
 }
 
@@ -166,9 +178,10 @@ footer a:hover {
     justify-content: space-between;
     background-color: #ededed;
     text-align: center;
-    padding: 60px 20px;
-    margin: 0 auto;
-    margin-bottom: 144px;
+    padding: 60px 40px;
+    margin: 0 auto 1440px auto;
+    width: 100%;
+    min-width: 1440px;
 }
 
 .heroSection h1 {
@@ -183,6 +196,11 @@ footer a:hover {
     flex-direction: column;
     align-items: flex-start;
     margin-left: 41px;
+    flex-shrink: 0;
+}
+
+.coffeeCupHome {
+    flex-shrink: 0;
 }
 
 .coffeeCupHome img {
@@ -227,10 +245,8 @@ footer a:hover {
 
 .orderStatusContainer {
     display: flex;
-    align-self: flex-end;
-    margin-left: auto;
-    margin-right: 20px;
-    margin-bottom: -10px;
+    flex-shrink: 0;
+    width: 320px;
     border: #dfdbd8 solid 2px;
     padding: 15px 25px 0px 25px;
     background: rgb(255 255 255 / 0.95);
@@ -242,7 +258,7 @@ footer a:hover {
 .orderSection {
     font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     font-size: 18px;
-    margin-left: -30px;
+    margin-left: 0;
 }
 
 .orderSection h3:last-child {

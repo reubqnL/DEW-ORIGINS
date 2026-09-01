@@ -21,6 +21,7 @@
 <!-- NAVIGATION BAR -->
 
 <body>
+<div class="pageWrap">
 <header class="navBar">
     <a href="../pages/index.php" class="logoLink">
         <h2 class="logo">DEW ORIGINS</h2>
@@ -137,6 +138,7 @@
         </div>
     </div>
 </footer>
+</div>
 </body>
 <script src="../scripts/scroll.js"></script>
 <script src="../scripts/index.js"></script>

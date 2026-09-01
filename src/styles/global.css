@@ -7,19 +7,18 @@
 
 .pageWrap {
     width: 100%;
-    max-width: 1440px;
     margin: 0 auto;
-    overflow-x: visible
 }
 
-html, body {
+html {
     background-color: white;
     overscroll-behavior: none;
-    width: 100%;
-    max-width: 100%;
 }
 
 body {
+    background-color: white;
+    min-width: 1280px;
+    width: 100%;
     overflow-x: auto;
 }
 
@@ -36,7 +35,7 @@ a {
     display: flex;
     align-items: center;
     width: 100%;
-    padding: 20px 5%;
+    padding: 20px 60px;
     border-top: 1px solid #e0e0e0;    /* Top divider line */
     border-bottom: 1px solid #e0e0e0; /* Bottom divider line */
 }
@@ -179,9 +178,9 @@ footer a:hover {
     background-color: #ededed;
     text-align: center;
     padding: 60px 40px;
-    margin: 0 auto 1440px auto;
+    margin: 0 auto 144px auto;
     width: 100%;
-    min-width: 1440px;
+    gap: 30px;
 }
 
 .heroSection h1 {
@@ -195,7 +194,7 @@ footer a:hover {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: 41px;
+    margin-left: 0;
     flex-shrink: 0;
 }
 
@@ -206,7 +205,7 @@ footer a:hover {
 .coffeeCupHome img {
     display: block;
     width: 100%;
-    max-width: 500px;
+    max-width: 420px;
     height: auto;
     margin: 0;
 }

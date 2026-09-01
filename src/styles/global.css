@@ -176,7 +176,7 @@ footer a:hover {
     justify-content: space-between;
     background-color: #ededed;
     text-align: center;
-    padding: 60px 40px;
+    padding: 30px 30px;
     margin: 0 auto 144px auto;
     width: 100%;
     gap: 30px;
@@ -244,13 +244,15 @@ footer a:hover {
 .orderStatusContainer {
     display: flex;
     flex-shrink: 0;
-    width: 320px;
+    width: 340px;
     border: #dfdbd8 solid 2px;
     padding: 15px 25px 0;
     background: rgb(255 255 255 / 0.95);
     overflow: hidden;
     height: 410px;
     border-radius: 12px;
+    text-align: left;
+    flex-wrap: wrap;
 }
 
 .orderSection {
@@ -269,7 +271,7 @@ footer a:hover {
 }
 
 .orderSection h3 {
-    margin-left: 65px;
+    margin-left: 55px;
     font-weight: 550;
 }
 
@@ -284,6 +286,28 @@ footer a:hover {
 .orderCollected {
     margin-bottom: 20px;
     margin-top: 35px;
+}
+
+.orderPlacedTime {
+    display: flex;
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: grey;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    margin-top: -60px;
+    padding-left: 55px;
+}
+
+.orderPreparingTime {
+    display: flex;
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: grey;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    margin-top: -60px;
+    padding-left: 55px;
 }
 
 /* Timeline */

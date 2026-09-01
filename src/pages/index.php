@@ -69,7 +69,9 @@
                 <div class="orderSection">
                     <h2>Order Status</h2><br>
                     <h3 class="orderPlaced">Order Placed</h3><br>
+                    <time class="orderPlacedTime">00:00 AM</time>
                     <h3 class="orderPreparing">Preparing</h3><br>
+                    <time class="orderPreparingTime">00:00 AM</time>
                     <h3 class="orderReady">Ready for Pickup</h3><br>
                     <h3 class="orderCollected">Picked Up</h3><br>
                 </div>

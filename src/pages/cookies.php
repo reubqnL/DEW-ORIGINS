@@ -10,6 +10,7 @@
     <title>DEW ORIGINS | Cookies</title>
 
     <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/legal.css">
     <link rel="icon" type="image/x-icon" href="../assets/favicon.png">
 </head>
 

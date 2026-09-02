@@ -1,0 +1,20 @@
+/* LEGAL PAGES */
+
+.cookieTitle, .privacyTitle {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-family: "Open Sans", sans-serif;
+    cursor: help;
+    color: #5c3b28;
+}
+
+.cookieText, .privacyText {
+    max-width: 800px;
+    margin: 15px auto 40px;
+    padding: 0 20px;
+    text-align: center;
+    cursor: help;
+    font-family: cursive;
+}

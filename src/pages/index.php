@@ -10,6 +10,7 @@
     <title>DEW ORIGINS | Home</title>
 
     <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/index.css">
     <link rel="icon" type="image/x-icon" href="../assets/favicon.png">
     <meta name="author" content="Reuben Cheetham">
     <meta name="description" content="A coffee shop that promotes transparency, drink customisation and putting you at the front of the queue">
@@ -155,5 +156,5 @@
 </div>
 </body>
 <script src="../scripts/scroll.js"></script>
-<script src="../scripts/index.js"></script>
+<script src="../scripts/buttons.js"></script>
 </html>

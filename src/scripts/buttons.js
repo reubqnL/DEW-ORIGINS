@@ -1,7 +1,10 @@
-document.getElementById('preOrderBtn').addEventListener('click', function() {
-    window.location.href = 'order.php';
-});
+document.addEventListener('click', function(event) {
+    const preOrderBtn = event.target.closest('#preOrderBtn');
+    const menuBtn = event.target.closest('#menuBtn');
 
-document.getElementById('menuBtn').addEventListener('click', function() {
-    window.location.href = 'menu.php';
-})
+    if (preOrderBtn) {
+        window.location.href = 'order.php';
+    } else if (menuBtn) {
+        window.location.href = 'menu.php';
+    }
+});

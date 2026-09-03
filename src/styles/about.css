@@ -30,7 +30,7 @@
 }
 
 .tagLineAbout {
-    margin-left: 13px;
+    margin-left: auto   ;
     font-family: "Open Sans", sans-serif;
     margin-top: 38px;
     letter-spacing: 0.03125em;

@@ -72,8 +72,134 @@
     max-width: 420px;
     height: auto;
     margin: 0;
-    border-radius: 45%;
+    border-radius: 45px;
     border: solid 1px white;
-    box-shadow: 2px 8px 10px 2px rgba(0, 0, 0, 0.2);
     box-shadow-blur: 5px;
+}
+
+/* About us content */
+
+.lineBreak {
+    border: none;
+    height: 2px;
+    background-color: #5c3b28;
+    margin: 20px 0 0 20px;
+    max-width: 260px;
+}
+
+.lineBreakTwo {
+    border: none;
+    height: 2px;
+    background-color: #5c3b28;
+    margin: 20px 0 0 1025px;
+    max-width: 260px;
+}
+
+.lineBreakPage {
+    border: none;
+    height: 2px;
+    background-color: #5c3b28;
+    max-width: 100%;
+    margin: auto 150px;
+}
+
+/* THE PROBLEM */
+
+.theProblem {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+.theProblem h2 {
+    padding: 20px 0 20px 55px;
+    font-family: sans-serif;
+}
+
+.problemContent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 60px;
+    padding: 20px 60px;
+}
+
+.problemParagraphs {
+    max-width: 720px;
+}
+
+.problemParagraphs p {
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.problemImages {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    flex-shrink: 0;
+}
+
+.problemImages img {
+    display: block;
+    width: 420px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-top: -75px;
+}
+
+/* THE SOLUTION */
+
+.theSolution {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    text-align: right;
+    width: 100%;
+}
+
+.theSolution h2 {
+    display: block;
+    margin: 0;
+    padding: 20px 60px 20px 0;
+    font-family: sans-serif;
+    text-align: right;
+}
+
+.solutionContent {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    padding: 20px 60px;
+    box-sizing: border-box;
+    gap: 60px;
+}
+
+.solutionImages {
+    display: flex;
+    flex-direction: column;
+    gap: 76px;
+    width: 420px;
+    flex-shrink: 0;
+}
+
+.solutionImages img {
+    display: block;
+    width: 420px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.solutionParagraphs {
+    flex: 1;
+    max-width: 720px;
+    margin-left: auto;
+    text-align: right;
+}
+
+.solutionParagraphs p {
+    margin-top: 0;
+    margin-bottom: 25px;
+    text-align: right;
 }

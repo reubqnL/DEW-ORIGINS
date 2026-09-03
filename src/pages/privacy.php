@@ -105,9 +105,9 @@
 
         <!-- BOTTOM ROW: COPYRIGHT -->
         <div class="footerBottom">
-            <p class="footerCopyright">&copy; Copyright DEW ORIGINS 2026</p>
+            <p class="footerCopyright">&copy; Copyright DEW ORIGINS 2026. External images belong to their
+                respective owners.</p>
         </div>
-
     </div>
 </footer>
 <script src="../scripts/scroll.js"></script>

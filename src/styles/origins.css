@@ -1,0 +1,80 @@
+/* Origins hero */
+
+.heroOriginsSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ededed;
+    text-align: left;
+    padding: 55px 30px;
+    margin: 0 auto 144px auto;
+    width: 100%;
+    gap: 30px;
+}
+
+.heroOriginsSection h1 {
+    font-family:'Open Sans' ,sans-serif;
+    font-size: 60px;
+    text-align: left;
+
+}
+
+.heroOriginsText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: -80px;
+    margin-top: -20px;
+    flex-shrink: 0;
+}
+
+.tagLineOrigins {
+    margin-left: auto;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 38px;
+    margin-left: 13px;
+    letter-spacing: 0.03125em;
+}
+
+#learnMoreBtn {
+    margin-left: 48px;
+    margin-top: 45px;
+    background-color: #5c3b28;
+    font-family: "Open Sans", sans-serif;
+    border: none;
+    padding: 15px 38px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 12px;
+    font-size: 20px;
+    color: white;
+}
+
+#learnMoreBtn:hover {
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.07);
+}
+
+#learnMoreBtn a {
+    color: inherit;
+}
+
+.originsCoffeeCup img {
+    display: block;
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+    margin: 0;
+    border-radius: 45px;
+    border: solid 1px white;
+    box-shadow-blur: 5px;
+}
+
+.originsCoffeeBean img {
+    width: 105%;
+    height: auto;
+    padding-left: 40px;
+
+}

@@ -6,5 +6,7 @@ document.addEventListener('click', function(event) {
         window.location.href = 'order.php';
     } else if (menuBtn) {
         window.location.href = 'menu.php';
+    } else if (learnMoreBtn) {
+        window.location.href = 'about.php';
     }
 });

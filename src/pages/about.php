@@ -47,7 +47,7 @@
                 <div class="heroAboutText">
                     <h1>About <i>Us</i></h1>
                     <div class="tagLineAbout">
-                        <h3>Everything you need to know about<br><strong id="aboutDewOrigins">Dew Origins</strong></h3>
+                        <h3>Everything you need to know...</h3>
                     </div>
                     <button id="menuBtn">Our Menu</button>
                 </div>

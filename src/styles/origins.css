@@ -76,5 +76,133 @@
     width: 105%;
     height: auto;
     padding-left: 40px;
+}
 
+/* Origins content */
+
+.lineBreak {
+    border: none;
+    height: 2px;
+    background-color: #5c3b28;
+    margin: 20px 0 0 20px;
+    max-width: 260px;
+}
+
+.lineBreakTwo {
+    border: none;
+    height: 2px;
+    background-color: #5c3b28;
+    margin: 20px 0 0 1025px;
+    max-width: 260px;
+}
+
+.lineBreakPage {
+    border: none;
+    height: 2px;
+    background-color: #5c3b28;
+    max-width: 100%;
+    margin: auto 150px;
+}
+
+/* Origins */
+
+/* THE PROBLEM */
+
+.theOrigins {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+.theOrigins h2 {
+    padding: 20px 0 20px 55px;
+    font-family: sans-serif;
+}
+
+.theOriginsContent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 60px;
+    padding: 20px 60px;
+}
+
+.theOriginsParagraphs {
+    max-width: 720px;
+}
+
+.theOriginsParagraphs p {
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.theOriginsImages {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    flex-shrink: 0;
+}
+
+.theOriginsImages img {
+    display: block;
+    width: 420px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-top: -75px;
+}
+
+/* La Mejor Story */
+
+.laMejorStory {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    text-align: right;
+    width: 100%;
+}
+
+.laMejorStory h2 {
+    display: block;
+    margin: 0;
+    padding: 20px 60px 20px 0;
+    font-family: sans-serif;
+    text-align: right;
+}
+
+.laMejorContent {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    padding: 20px 60px;
+    box-sizing: border-box;
+    gap: 60px;
+}
+
+.laMejorImages {
+    display: flex;
+    flex-direction: column;
+    gap: 76px;
+    width: 420px;
+    flex-shrink: 0;
+}
+
+.laMejorImages img {
+    display: block;
+    width: 420px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.laMejorParagraphs {
+    flex: 1;
+    max-width: 720px;
+    margin-left: auto;
+    text-align: right;
+}
+
+.laMejorParagraphs p {
+    margin-top: 0;
+    margin-bottom: 25px;
+    text-align: right;
 }

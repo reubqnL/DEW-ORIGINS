@@ -94,7 +94,7 @@
                 </div>
             </div>
             <div class="column">
-                <div class="card">
+                <div class="card" id="originsCard">
                     <div class="circleBorder">
                         <img src="../assets/globe.png" alt="An icon of the Earth">
                     </div>

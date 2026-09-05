@@ -55,9 +55,7 @@ DEW ORIGINS aims to reimagine the coffee shop digital apps by combining real-tim
 ## macOS: Running MySQL & PHP Locally
 
 ### MySQL
-- brew services start mysql
-- brew services list
-- brew services stop mysql
+- Created MySQL datbase for Orders. Hidden for security
 
 ### PHP
 - cd '/Users/reu/Desktop/DEW ORIGINS/src'

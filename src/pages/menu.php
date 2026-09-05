@@ -30,5 +30,5 @@ To add:
 Create a PHP array and append a value to it if a user selects add to basket, unset() if removed from basket
 When user adds item to basket, href to order page with URL query: ../pages/order.php?item=hotChocolate
 Store as a variable, example: $basket = ['hotChocolate']
-Link prices to add a dynamic price changer
+Link prices to add a dynamic price changer in order page
 -->

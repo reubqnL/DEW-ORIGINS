@@ -9,5 +9,5 @@ node_modules/
 .env.*
 !.env.example
 
-# Gitignore file
-.gitignore
+# Color Scheme
+*.icls

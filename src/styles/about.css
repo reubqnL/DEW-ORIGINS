@@ -7,7 +7,7 @@
     justify-content: space-between;
     background-color: #ededed;
     text-align: left;
-    padding: 55px 30px;
+    padding: 37px 30px;
     margin: 0 auto 144px auto;
     width: 100%;
     gap: 30px;
@@ -34,6 +34,12 @@
     font-family: "Open Sans", sans-serif;
     margin-top: 38px;
     letter-spacing: 0.03125em;
+}
+
+.questionMarkAbout img{
+    width: 100%;
+    height: auto;
+    max-width: 200px;
 }
 
 #aboutDewOrigins {

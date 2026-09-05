@@ -13,4 +13,5 @@ document.addEventListener('click', function(event) {
     } else if (originsCard) {
         window.location.href = 'origins.php';
     }
+
 });

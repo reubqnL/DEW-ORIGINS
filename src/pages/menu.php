@@ -26,35 +26,57 @@ include '../components/header.php';
         </section>
 
         <!-- CARD ITEMS -->
+
         <section class="cardGrid">
             <div class="row">
                 <div class="column">
                     <div class="card">
-                        <div class="circleBorder">
-                            <img class="menu" src="../assets/menu.png" alt="An icon of a menu">
-                        </div>
-                        <h2>Our Menu</h2>
-                        <p>View our world-famous drinks</p>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="card" id="originsCard">
-                        <div class="circleBorder">
-                            <img src="../assets/globe.png" alt="An icon of the Earth">
-                        </div>
-                        <h2>Coffee Origins</h2>
-                        <p>Ethically sourced coffee beans</p>
+                            <img class="espresso" src="../assets/menu/espresso.jpeg" alt="An image of an espresso">
+                        <h2>Espresso</h2>
+                        <p class="tagLineCard">Pure, concentrated energy in a bold, rich shot.</p>
+                        <p>Click to add / remove from basket</p>
                     </div>
                 </div>
                 <div class="column">
                     <div class="card">
-                        <a href="#top">
-                            <div class="circleBorder">
-                                <img src="../assets/parcel.png" alt="An icon of a package">
-                            </div>
-                            <h2>Track Order</h2>
-                            <p>Track your delivery / pickup order</p>
-                        </a>
+                            <img src="../assets/menu/cappuccino.jpg" alt="An image of a cappuccino">
+                        <h2>Cappuccino</h2>
+                        <p class="tagLineCard">Perfectly balanced espresso topped with velvety steamed milk and airy foam.</p>
+                        <p>Click to add / remove from basket</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <img src="../assets/menu/hotChoc.jpg" alt="An image of a hot chocolate">
+                        <h2>Hot Chocolate</h2>
+                        <p class="tagLineCard">A rich, comforting classic crafted with decadent cocoa warmth.</p>
+                        <p>Click to add / remove from basket</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <div class="card">
+                        <img src="../assets/menu/latte.jpeg" alt="An image of a latte">
+                        <h2>Latte</h2>
+                        <p class="tagLineCard">Smooth espresso poured over silky, micro-steamed milk for a gentle, balanced flavor.</p>
+                        <p>Click to add / remove from basket</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <img src="../assets/menu/whiteHotChoc.jpg" alt="An image of a white hot chocolate">
+                        <h2>White Hot Chocolate</h2>
+                        <p class="tagLineCard">Pure chemicals but <strong>DELICIOUS</strong></p>
+                        <p>Click to add / remove from basket</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <img src="../assets/coffeeCupTwo.webp" alt="An image of two coffee cups">
+                        <h2>La Mejor</h2>
+                        <p class="tagLineCard">Our signature house drink - true to its name, the best craft blend in every cup.</p>
+                        <p>Click to add / remove from basket</p>
                     </div>
                 </div>
             </div>

@@ -54,7 +54,7 @@ include '../components/header.php';
     <section class="cardGrid">
         <div class="row">
             <div class="column">
-                <div class="card">
+                <div class="card" id="menuCard">
                     <div class="circleBorder">
                         <img class="menu" src="../assets/menu.png" alt="An icon of a menu">
                     </div>
@@ -73,11 +73,13 @@ include '../components/header.php';
             </div>
             <div class="column">
                 <div class="card">
-                    <div class="circleBorder">
-                        <img src="../assets/parcel.png" alt="An icon of a package">
-                    </div>
-                    <h2>Track Order</h2>
-                    <p>Track your delivery / pickup order</p>
+                    <a href="#top">
+                        <div class="circleBorder">
+                            <img src="../assets/parcel.png" alt="An icon of a package">
+                        </div>
+                        <h2>Track Order</h2>
+                        <p>Track your delivery / pickup order</p>
+                    </a>
                 </div>
             </div>
         </div>

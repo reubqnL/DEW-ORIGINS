@@ -3,6 +3,7 @@ document.addEventListener('click', function(event) {
     const menuBtn = event.target.closest('#menuBtn');
     const learnMoreBtn = event.target.closest('#learnMoreBtn');
     const originsCard = event.target.closest('#originsCard');
+    const menuCard = event.target.closest('#menuCard');
 
     if (preOrderBtn) {
         window.location.href = 'order.php';
@@ -12,6 +13,8 @@ document.addEventListener('click', function(event) {
         window.location.href = 'about.php';
     } else if (originsCard) {
         window.location.href = 'origins.php';
+    } else if (menuCard) {
+        window.location.href = 'menu.php';
     }
 
 });

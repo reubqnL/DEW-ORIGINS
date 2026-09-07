@@ -30,9 +30,9 @@ DEW ORIGINS aims to reimagine the coffee shop digital apps by combining real-tim
 ### Key Features
 - Smart Pre-Ordering: Schedule drink pickups in advance to skip the peak-hour line.
 - Interactive Tracing: Explore cards showing origin countries, farm details, elevation, process type, and flavor profiles for every roast.
-- Custom Drink Builder: A visual menu modifier for custom milk options, shot counts, and temperature preferences.
+- SOON TO COME: Custom Drink Builder: A visual menu modifier for custom milk options, shot counts, and temperature preferences.
 - Live Order Status Tracker: Real-time updates showing when an order is Received, In Preparation, and Ready for Pickup.
-- Accessible and Mobile-First Design: Fully responsive interface optimized for on-the-go mobile users.
+- SOON TO COME:  Accessible and Mobile-First Design: Fully responsive interface optimized for on-the-go mobile users.
 
 ---
 

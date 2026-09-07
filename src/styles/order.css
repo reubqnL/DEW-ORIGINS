@@ -96,11 +96,14 @@
     flex-direction: column;
     height: 100%;
     gap: 20px;
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
 .basketItem {
     font-family: "Open Sans", sans-serif;
     margin: auto;
+    color: #d2a679;
+    font-weight: 600;
 }
 
 .placeOrderBtn {
@@ -121,4 +124,62 @@
 .placeOrderBtn:hover {
     transition: transform 0.2s ease-in-out;
     transform: scale(1.05);
+}
+
+/* Map Section */
+
+.cardLB2 {
+    border: none;
+    height: 2px;
+    background-color: #5c3b28;
+    width: 95%;
+}
+
+.mapContainer {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mapText {
+    align-self: flex-start;
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    padding: 40px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+}
+
+.mapText p {
+    margin-top: 20px;
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.mapText h2 {
+    font-size: 50px;
+    margin-top: -40px;
+}
+
+.mapText a {
+    color: inherit;
+    font-weight: bold;
+}
+
+.map iframe{
+    display: flex;
+    margin-left: auto;
+    padding-right: 40px;
+    border-radius: 12px;
+}
+
+.mapText img {
+    display: block;
+    width: 420px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 20px;
 }

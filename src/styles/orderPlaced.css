@@ -1,0 +1,13 @@
+.orderPlacedContainer {
+    padding: 200px;
+
+}
+
+.orderPlaced {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}

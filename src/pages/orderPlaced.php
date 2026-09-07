@@ -2,7 +2,7 @@
 $pageTitle = "DEW ORIGINS | Order Placed";
 $pageCSS = "orderPlaced.css";
 
-include '../components/header.php';
+include __DIR__ . '/../components/header.php';
 ?>
 
 <main>
@@ -15,5 +15,5 @@ include '../components/header.php';
 </main>
 
 <?php
-include '../components/footer.php';
+include __DIR__ . '/../components/footer.php';
 ?>

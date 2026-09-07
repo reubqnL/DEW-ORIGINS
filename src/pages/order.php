@@ -16,10 +16,25 @@ include '../components/header.php';
                 <div class="heroOrderText">
                     <h1>Coffee made for<br><i>you</i></h1>
                     <button id="menuBtn" class="menuBtn">Our Menu</button>
-                </div>
-        </section>
-    </main>
 
+                    <!-- BASKET -->
+
+                    <div class="basketContainer">
+                        <div class="basket">
+                            <h2>Basket</h2>
+                            <hr class="cardLB">
+                            <?php
+                            $basketItems = [];
+                            if (!empty($_GET['item'])) {
+                                $basketItems = [$_GET['item']];
+                                foreach ($basketItems as $item) {
+                                    echo "<div class='basketItem'>1x $item</div>";
+                                }
+                            }
+                            ?>
+                        </div>
+                    </div>
+    </main>
 <?php
 include '../components/footer.php';
 ?>

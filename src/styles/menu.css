@@ -112,7 +112,7 @@
     border-radius: 12px;
     display: grid;
     justify-items: center;
-    gap: 30px;
+    gap: 20px;
     align-items: center;
     padding: 20px;
     cursor: pointer;
@@ -127,4 +127,23 @@
 
 .card p {
     font-weight: 530;
+}
+
+.tagLineCard p{
+    font-family: "Open Sans", sans-serif;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: #d2a679;
+}
+
+.cardLB {
+    border: none;
+    height: 2px;
+    background-color: #5c3b28;
+    width: 75%;
 }

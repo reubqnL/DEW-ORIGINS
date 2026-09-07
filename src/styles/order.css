@@ -1,0 +1,72 @@
+/* Hero Section */
+
+.heroOrderSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    background-color: #ededed;
+    text-align: center;
+    padding: 30px 30px;
+    margin: 0 auto 144px auto;
+    width: 100%;
+    gap: 60px;
+}
+
+.heroOrderSection h1 {
+    font-family:'Open Sans' ,sans-serif;
+    font-size: 55px;
+    text-align: left;
+}
+
+.heroOrderText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 120px;
+    flex-shrink: 0;
+}
+
+.shoppingBasketOrder {
+    flex-shrink: 0;
+}
+
+.shoppingBasketOrder img {
+    display: block;
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+    margin: 0;
+}
+
+.menuBtn {
+    margin: 45px 3px auto -7px;
+    background-color: #5c3b28;
+    font-family: "Open Sans", sans-serif;
+    border: none;
+    padding: 15px 38px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 12px;
+    font-size: 20px;
+    color: white;
+}
+
+.menuBtn:hover {
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.07);
+}
+
+.menuBtn a {
+    color: inherit;
+}
+
+/* Basket */
+
+.cardLB {
+    border: none;
+    height: 2px;
+    background-color: #5c3b28;
+    width: 75%;
+}

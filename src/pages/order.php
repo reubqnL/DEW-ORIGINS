@@ -5,7 +5,7 @@ $pageCSS = 'order.css';
 include '../components/header.php';
 ?>
 
-<!-- HERO SECTION -->
+    <!-- HERO SECTION -->
 
     <main>
         <section>
@@ -32,9 +32,11 @@ include '../components/header.php';
                                 }
                             }
                             ?>
+                            <button id="placeOrderBtn" class="placeOrderBtn">Place Order</button>
                         </div>
                     </div>
     </main>
+    <script src="../scripts/basket.js"></script>
 <?php
 include '../components/footer.php';
 ?>

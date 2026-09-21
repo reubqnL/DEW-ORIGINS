@@ -1,3 +1,22 @@
+/* FONT - Credit to Microsoft Copilot assistance in fixing fonts not loading */
+@font-face {
+    font-family: "Open Sans";
+    src: url("/fonts/OpenSans-Regular.woff2") format("woff2"),
+    url("/fonts/OpenSans-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("/fonts/OpenSans-Italic.woff2") format("woff2"),
+    url("/fonts/OpenSans-Italic.woff") format("woff");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
 /* General */
 * {
     box-sizing: border-box;

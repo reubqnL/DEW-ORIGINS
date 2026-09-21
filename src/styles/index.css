@@ -262,3 +262,109 @@
 .card p {
     font-weight: 530;
 }
+
+/* MEDIA QUERIES - Credit to Microsoft Copilot for assistance */
+
+@media (max-width: 1024px) {
+    .heroSection {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+        margin-bottom: 100px;
+    }
+
+    .heroText {
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .heroSection h1 {
+        font-size: 48px;
+        text-align: center;
+    }
+
+    .coffeeCupHome img {
+        max-width: 350px;
+    }
+
+    .orderStatusContainer {
+        margin: 0 auto;
+    }
+
+    .cardGrid {
+        margin-left: 0;
+        margin-top: 40px;
+    }
+
+    .column {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .heroSection h1 {
+        font-size: 40px;
+    }
+
+    .preOrder {
+        font-size: 18px;
+        padding: 12px 30px;
+    }
+
+    .coffeeCupHome img {
+        max-width: 300px;
+    }
+
+    .orderStatusContainer {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .column {
+        width: 100%;
+    }
+}
+@media (max-width: 480px) {
+    .heroSection {
+        padding: 20px;
+        gap: 30px;
+    }
+
+    .heroSection h1 {
+        font-size: 32px;
+    }
+
+    .coffeeCupHome img {
+        max-width: 240px;
+    }
+
+    .preOrder {
+        width: 100%;
+        text-align: center;
+        padding: 12px 0;
+        font-size: 18px;
+    }
+
+    .orderStatusContainer {
+        height: auto;
+        padding: 20px;
+    }
+
+    .orderSection h2 {
+        font-size: 22px;
+    }
+
+    .orderSection h3 {
+        margin-left: 20px;
+        font-size: 16px;
+    }
+
+    .card {
+        padding: 15px;
+        gap: 20px;
+    }
+
+    .cardGrid img {
+        width: 70%;
+    }
+}

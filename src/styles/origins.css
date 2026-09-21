@@ -206,3 +206,192 @@
     margin-bottom: 25px;
     text-align: right;
 }
+
+/* MEDIA QUERIES - Credit to Microsoft Copilot for assistance *//* MEDIA QUERIES - Credit to Microsoft Copilot for assistance */
+@media (max-width: 1024px) {
+
+    /* Hero section */
+    .heroOriginsSection {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+        padding: 40px 20px;
+        margin-bottom: 100px;
+    }
+
+    .heroOriginsText {
+        align-items: center;
+        margin-right: 0;
+        margin-top: 0;
+    }
+
+    .heroOriginsSection h1 {
+        font-size: 48px;
+        text-align: center;
+    }
+
+    .tagLineOrigins {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #learnMoreBtn {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .originsCoffeeCup img {
+        max-width: 350px;
+    }
+
+    .originsCoffeeBean img {
+        max-width: 300px;
+        padding-left: 0;
+    }
+
+    /* Origins content */
+    .theOriginsContent {
+        flex-direction: column;
+        gap: 40px;
+        padding: 20px 30px;
+        text-align: center;
+    }
+
+    .theOriginsParagraphs {
+        max-width: 100%;
+    }
+
+    .theOriginsImages {
+        align-items: center;
+        gap: 60px;
+    }
+
+    .theOriginsImages img {
+        max-width: 350px;
+        margin-top: 0;
+    }
+
+    /* La Mejor Story */
+    .laMejorContent {
+        flex-direction: column-reverse;
+        gap: 40px;
+        padding: 20px 30px;
+        text-align: center;
+    }
+
+    .laMejorImages {
+        width: 100%;
+        align-items: center;
+    }
+
+    .laMejorImages img {
+        max-width: 350px;
+    }
+
+    .laMejorParagraphs {
+        max-width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .laMejorStory h2 {
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .lineBreakTwo {
+        margin: 20px auto;
+    }
+}
+@media (max-width: 768px) {
+
+    .heroOriginsSection h1 {
+        font-size: 40px;
+    }
+
+    #learnMoreBtn {
+        font-size: 18px;
+        padding: 12px 30px;
+    }
+
+    .originsCoffeeCup img,
+    .originsCoffeeBean img {
+        max-width: 280px;
+    }
+
+    .theOriginsContent,
+    .laMejorContent {
+        padding: 20px;
+    }
+
+    .theOriginsImages img,
+    .laMejorImages img {
+        max-width: 280px;
+    }
+
+    .theOrigins h2,
+    .laMejorStory h2 {
+        padding: 20px 0;
+        font-size: 24px;
+    }
+}
+@media (max-width: 480px) {
+
+    /* Hero */
+    .heroOriginsSection {
+        padding: 20px;
+        gap: 25px;
+    }
+
+    .heroOriginsSection h1 {
+        font-size: 32px;
+    }
+
+    .originsCoffeeCup img,
+    .originsCoffeeBean img {
+        max-width: 220px;
+    }
+
+    #learnMoreBtn {
+        width: 100%;
+        padding: 12px 0;
+        font-size: 18px;
+        margin-top: 25px;
+    }
+
+    /* Origins content */
+    .theOriginsContent {
+        gap: 30px;
+        padding: 15px;
+    }
+
+    .theOriginsImages img {
+        max-width: 220px;
+    }
+
+    .theOriginsParagraphs p {
+        font-size: 16px;
+    }
+
+    /* La Mejor Story */
+    .laMejorContent {
+        gap: 30px;
+        padding: 15px;
+    }
+
+    .laMejorImages img {
+        max-width: 220px;
+    }
+
+    .laMejorParagraphs p {
+        font-size: 16px;
+    }
+
+    /* Line breaks */
+    .lineBreak,
+    .lineBreakTwo,
+    .lineBreakPage {
+        margin: 20px auto;
+        max-width: 200px;
+    }
+}

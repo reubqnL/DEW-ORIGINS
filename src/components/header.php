@@ -9,9 +9,9 @@
 
     <title><?php echo $pageTitle; ?></title>
 
-    <link rel="stylesheet" href="../styles/global.css"> <!-- Global CSS -->
+    <link rel="stylesheet" href="/styles/global.css"> <!-- Global CSS -->
 
-    <link rel="stylesheet" href="../styles/<?php echo $pageCSS; ?>"> <!-- Page specific CSS -->
+    <link rel="stylesheet" href="/styles/<?php echo $pageCSS; ?>"> <!-- Page specific CSS -->
 
     <link rel="icon" type="image/x-icon" href="../assets/favicon.png">
     <meta name="author" content="Reuben Cheetham">

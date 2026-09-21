@@ -11,3 +11,24 @@
     font-size: 40px;
     text-align: center;
 }
+
+/* MEDIA QUERIES - Credit to Microsoft Copilot for assistance *//* MEDIA QUERIES - Credit to Microsoft Copilot for assistance */
+@media (max-width: 768px) {
+    .orderPlacedContainer {
+        padding: 120px;
+    }
+
+    .orderPlaced {
+        font-size: 32px;
+    }
+}
+@media (max-width: 480px) {
+    .orderPlacedContainer {
+        padding: 60px 20px;
+    }
+
+    .orderPlaced {
+        font-size: 26px;
+        text-align: center;
+    }
+}

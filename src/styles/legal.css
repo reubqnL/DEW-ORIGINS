@@ -18,3 +18,29 @@
     cursor: help;
     font-family: cursive;
 }
+/* MEDIA QUERIES - Credit to Microsoft Copilot for assistance *//* MEDIA QUERIES - Credit to Microsoft Copilot for assistance */
+@media (max-width: 768px) {
+    .cookieTitle, .privacyTitle {
+        font-size: 26px;
+        padding: 12px;
+    }
+
+    .cookieText, .privacyText {
+        max-width: 600px;
+        font-size: 18px;
+        padding: 0 15px;
+    }
+}
+@media (max-width: 480px) {
+    .cookieTitle, .privacyTitle {
+        font-size: 22px;
+        padding: 10px;
+    }
+
+    .cookieText, .privacyText {
+        max-width: 100%;
+        font-size: 16px;
+        padding: 0 10px;
+        text-align: left; /* Better readability on phones */
+    }
+}

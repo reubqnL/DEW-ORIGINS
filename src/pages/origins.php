@@ -2,7 +2,7 @@
 $pageTitle = 'DEW ORIGINS | Origins';
 $pageCSS = 'origins.css';
 
-include '../components/header.php';
+include __DIR__ . '/../components/header.php';
 ?>
 
 <!-- HERO SECTION -->
@@ -85,5 +85,5 @@ include '../components/header.php';
     </main>
 
 <?php
-include '../components/footer.php';
+include __DIR__ . '/../components/footer.php';
 ?>

@@ -2,7 +2,7 @@
 $pageTitle = 'DEW ORIGINS | Order';
 $pageCSS = 'order.css';
 
-include '../components/header.php';
+include __DIR__ . '/../components/header.php';
 ?>
 
     <!-- HERO SECTION -->
@@ -53,5 +53,5 @@ include '../components/header.php';
     </main>
     <script src="../scripts/basket.js"></script>
 <?php
-include '../components/footer.php';
+include __DIR__ . '/../components/footer.php';
 ?>

@@ -2,7 +2,7 @@
 $pageTitle = 'DEW ORIGINS | Privacy Policy';
 $pageCSS = 'legal.css';
 
-include '../components/header.php';
+include __DIR__ . '/../components/header.php';
 ?>
 
 <main>
@@ -47,6 +47,6 @@ include '../components/header.php';
 </body>
 
 <?php
-include '../components/footer.php';
+include __DIR__ . '/../components/footer.php';
 ?>
 

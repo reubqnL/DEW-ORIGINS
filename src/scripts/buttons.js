@@ -4,20 +4,19 @@ document.addEventListener('click', function(event) {
     const learnMoreBtn = event.target.closest('#learnMoreBtn');
     const originsCard = event.target.closest('#originsCard');
     const menuCard = event.target.closest('#menuCard');
-    const placedOrderBtn = event.target.closest('#placeOrderBtn')
+    const placedOrderBtn = event.target.closest('#placeOrderBtn');
 
     if (preOrderBtn) {
-        window.location.href = 'order.php';
+        window.location.href = '/pages/order.php';
     } else if (menuBtn) {
-        window.location.href = 'menu.php';
+        window.location.href = '/pages/menu.php';
     } else if (learnMoreBtn) {
-        window.location.href = 'about.php';
+        window.location.href = '/pages/about.php';
     } else if (originsCard) {
-        window.location.href = 'origins.php';
+        window.location.href = '/pages/origins.php';
     } else if (menuCard) {
-        window.location.href = 'menu.php';
+        window.location.href = '/pages/menu.php';
     } else if (placedOrderBtn) {
-        window.location.href = 'orderPlaced.php'
+        window.location.href = '/pages/orderPlaced.php';
     }
-
 });

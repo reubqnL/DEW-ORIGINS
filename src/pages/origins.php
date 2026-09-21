@@ -5,13 +5,13 @@ $pageCSS = 'origins.css';
 include __DIR__ . '/../components/header.php';
 ?>
 
-<!-- HERO SECTION -->
+    <!-- HERO SECTION -->
 
     <main>
         <section>
             <div class="heroOriginsSection">
                 <div class="originsCoffeeBean">
-                    <img src="../assets/favicon.png" alt="An icon of coffee beans">
+                    <img src="/assets/favicon.png" alt="An icon of coffee beans">
                 </div>
                 <div class="heroOriginsText">
                     <h1>Coffee Origins</h1>
@@ -21,7 +21,7 @@ include __DIR__ . '/../components/header.php';
                     <button id="learnMoreBtn" class="learnMore">Learn More</button>
                 </div>
                 <div class="originsCoffeeCup">
-                    <img src="../assets/coffeeCupThree.webp" alt="An image of a cup & coffee beans">
+                    <img src="/assets/coffeeCupThree.webp" alt="An image of a cup & coffee beans">
                 </div>
             </div>
             <hr class="lineBreak">
@@ -48,9 +48,9 @@ include __DIR__ . '/../components/header.php';
                         every single harvest.</p>
                 </div>
                 <div class="theOriginsImages">
-                    <img src="../assets/farmers.jpg"
+                    <img src="/assets/farmers.jpg"
                          alt="Image of a two farmers">
-                    <img src="../assets/makingEspresso.jpg"
+                    <img src="/assets/makingEspresso.jpg"
                          alt="Image of a woman making coffee">
                 </div>
             </div>
@@ -62,7 +62,7 @@ include __DIR__ . '/../components/header.php';
             <h2 class="laMejorHeader">The Story Behind La Mejor</h2>
             <div class="laMejorContent">
                 <div class="laMejorImages">
-                    <img src="../assets/coffeeCupTwo.webp" alt="Image of a two coffee cups">
+                    <img src="/assets/coffeeCupTwo.webp" alt="Image of a two coffee cups">
                 </div>
                 <div class="laMejorParagraphs">
                     <p>That sourcing forms the foundation of our best-selling signature drink, La Mejor.

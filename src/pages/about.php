@@ -5,13 +5,13 @@ $pageCSS = 'about.css';
 include __DIR__ . '/../components/header.php';
 ?>
 
-<!-- HERO SECTION -->
+    <!-- HERO SECTION -->
 
     <main>
         <section>
             <div class="heroAboutSection">
                 <div class="questionMarkAbout">
-                    <img src="../assets/questionMark.png" alt="An image of a question mark">
+                    <img src="/assets/questionMark.png" alt="An image of a question mark">
                 </div>
                 <div class="heroAboutText">
                     <h1>About <i>Us</i></h1>
@@ -21,7 +21,7 @@ include __DIR__ . '/../components/header.php';
                     <button id="menuBtn">Our Menu</button>
                 </div>
                 <div class="coffeeFarming">
-                    <img src="../assets/coffeeFarming.jpg" alt="An image of people's hands reaching into  harvested coffee beans">
+                    <img src="/assets/coffeeFarming.jpg" alt="An image of people's hands reaching into harvested coffee beans">
                 </div>
             </div>
             <hr class="lineBreak">
@@ -48,9 +48,9 @@ include __DIR__ . '/../components/header.php';
                         confusing.</p>
                 </div>
                 <div class="problemImages">
-                    <img src="../assets/problemOne.jpg"
+                    <img src="/assets/problemOne.jpg"
                          alt="Image of a cosy coffee shop">
-                    <img src="../assets/problemTwo.jpg"
+                    <img src="/assets/problemTwo.jpg"
                          alt="Image of a cosy coffee shop">
                 </div>
             </div>
@@ -64,8 +64,8 @@ include __DIR__ . '/../components/header.php';
             <h2 class="solutionHeader">DEW ORIGINS: The Solution</h2>
             <div class="solutionContent">
                 <div class="solutionImages">
-                    <img src="../assets/theSolution.jpg" alt="Image of a waitress and customer">
-                    <img src="../assets/solutionTwo.jpeg" alt="Group of people in a coffee shop">
+                    <img src="/assets/theSolution.jpg" alt="Image of a waitress and customer">
+                    <img src="/assets/solutionTwo.jpeg" alt="Group of people in a coffee shop">
                 </div>
                 <div class="solutionParagraphs">
                     <p>DEW ORIGINS is designed to remake the online coffee shop experience by bringing

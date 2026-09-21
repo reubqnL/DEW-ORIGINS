@@ -1,2 +1,10 @@
 RewriteEngine On
-RewriteRule ^$ src/index.php [L]
+
+# 1. If someone visits the root domain (deworigins.reubenc.com/), serve index.php
+DirectoryIndex index.php
+
+# 2. If a page like /menu.php is requested, automatically look inside /pages/menu.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}/pages/$1 -f
+RewriteRule ^(.*)$ pages/$1 [L]

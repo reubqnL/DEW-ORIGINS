@@ -1,20 +1,19 @@
 /* FONT - Credit to Microsoft Copilot assistance in fixing fonts not loading */
-@font-face {
-    font-family: "Open Sans";
-    src: url("/fonts/OpenSans-Regular.woff2") format("woff2"),
-    url("/fonts/OpenSans-Regular.woff") format("woff");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap');
+
+/* General */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-@font-face {
-    font-family: "Open Sans";
-    src: url("/fonts/OpenSans-Italic.woff2") format("woff2"),
-    url("/fonts/OpenSans-Italic.woff") format("woff");
-    font-weight: 400;
-    font-style: italic;
-    font-display: swap;
+body {
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: white;
+    min-width: 1280px;
+    width: 100%;
+    overflow-x: auto;
 }
 
 /* General */
@@ -32,13 +31,6 @@
 html {
     overscroll-behavior: none;
     scroll-behavior: smooth;
-}
-
-body {
-    background-color: white;
-    min-width: 1280px;
-    width: 100%;
-    overflow-x: auto;
 }
 
 ul {
@@ -92,7 +84,7 @@ a {
 .navLinks a {
     text-decoration: none;
     color: black;
-    font-family: "Open Sans", serif;
+    font-family: "Open Sans", sans-serif;
     display: inline-block;
     transition: transform 0.2s ease-in-out;
 }
@@ -111,7 +103,7 @@ footer.siteFooter {
     margin-top: 60px;
     width: 100%;
     z-index: 1000;
-    font-family: "Open Sans", serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 /* 2 column grid for main content (edit: reference for future use) */

@@ -26,8 +26,8 @@
         <!-- COLUMN 3: LEGAL -->
         <div class="legalDetails">
             <h3>Legal</h3>
-            <p class="footerItem"><a href="../pages/cookies.php">Cookie Policy</a></p>
-            <p class="footerItem"><a href="../pages/privacy.php">Privacy Policy</a></p>
+            <p class="footerItem"><a href="/pages/cookies.php">Cookie Policy</a></p>
+            <p class="footerItem"><a href="/pages/privacy.php">Privacy Policy</a></p>
         </div>
 
         <!-- BOTTOM ROW: COPYRIGHT -->
@@ -39,6 +39,6 @@
 </footer>
 </div>
 </body>
-<script src="../scripts/scroll.js"></script>
-<script src="../scripts/buttons.js"></script>
+<script src="/scripts/scroll.js"></script>
+<script src="/scripts/buttons.js"></script>
 </html>
